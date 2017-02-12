@@ -72,7 +72,9 @@
   <div class="row">
     <div class="col-sm-12">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src=".//Images//line_si.mp4"></iframe>
+        <video autoplay controls class="embed-responsive-item" onclick="this.paused ? this.play() : this.pause();">
+			<source src=".//Images//line_si.mp4" type="video/mp4">
+		</video>
       </div>
     </div>
   </div>
