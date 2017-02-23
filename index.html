@@ -32,7 +32,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">SW-J</a>
+      <a class="navbar-brand" href="./index.html">SW-J</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -40,30 +40,26 @@
         <li class="active"><a href="./index.html">Home</a></li>
         <li><a href="https://simonwardjones.github.io/mapping-project/">Projects</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="./contact.html">Email</a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#">another item</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./cv.html">Simon's C.V.</a></li>
           </ul>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
+    </div>
+	<!-- /.navbar-collapse -->
 
   </div><!-- /.container-fluid -->
 </nav>
 
 
-<div class= "container">
-	<div class="jumbotron">
+
+<div class="jumbotron">
+	<div class= "container">
 		<h1>Simon Ward-Jones</h1>
 
-		<p>Welcome to my website. I am an Analyst/ Data Scientist currently working in supply chain analytics. This site to is very much still a work in progress but I will use it to share some of my little hacks and projects and things I find interesting. </p>
-		<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a></p>
+		<p>Welcome to my website. I am an Analyst/ Data Scientist currently working in supply chain analytics. This site is very much still a work in progress but I will use it to share some of my little hacks and projects and things I find interesting. </p>
 	</div>
 </div>
 
@@ -71,12 +67,22 @@
 <div class= "container">
   <div class="row">
     <div class="col-sm-12">
-      <div class="embed-responsive embed-responsive-16by9">
-        <video controls class="embed-responsive-item" onclick="this.paused ? this.play() : this.pause();">
+		<p>Check out this map I made of all the flights I have ever been on: </p>
+		<h2>4:3 Responsive Aspect Ratio using video tag</h2>
+		<div class="embed-responsive embed-responsive-4by3">
+		<video controls class="embed-responsive-item" onclick="this.paused ? this.play() : this.pause();">
 			<source src=".//images//mapping_video.mp4" type="video/mp4">
 			<source src=".//images//mapping_video_ios.mp4" type="video/mp4">
 		</video>
-      </div>
+		</div>
+		
+		<h2>16:9 Responsive Aspect Ratio using i-frame</h2>
+		<div class="embed-responsive embed-responsive-4by3">
+			<iframe class="embed-responsive-item" src=".//images//mapping_video.mp4" frameBorder="0"></iframe>
+		</div>
+	</div>
+    <div class="col-sm-6">
+		
     </div>
   </div>
 </div>
