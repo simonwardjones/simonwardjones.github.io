@@ -101,6 +101,9 @@
 .social-button:focus:before, .social-button:hover:before {
   top: -10%;
   left: -10%;
+  left: -10%;
+  -webkit-transform: rotate(45deg) scale(2);
+          transform: rotate(45deg) scale(2);
 }
 .social-button:focus .fa, .social-button:hover .fa {
   color: #fff;
