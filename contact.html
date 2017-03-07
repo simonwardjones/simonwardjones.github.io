@@ -32,6 +32,7 @@
 
 <body>
 
+
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -46,9 +47,15 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="./index.html">Home</a></li>
-        <li><a href="https://simonwardjones.github.io/mapping-project/">Projects</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://simonwardjones.github.io/mapping-project/">Flights Animation</a></li>
+            <li><a href="./bayesian inference.html">Bayesian Inference</a></li>
+          </ul>
+        </li>
         <li class="dropdown active">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="./contact.html">Contact</a></li>
             <li><a href="https://www.linkedin.com/in/simon-ward-jones-357b16aa">Simon's C.V.</a></li>
