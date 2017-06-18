@@ -91,7 +91,7 @@
 	<p>In our example we have seen three heads so $x_1=x_2=x_3=1$ and then $\theta = 1$. Thereore having seen three heads in a row we estimate the probability of seeing a fourth as $P(X=1)=\theta_{ML} = 1$. Not exactly a genius prediction... This is were baysian inference comes in and the concept of having a prior opinion (like tossing a heads probably has a probability near 1/2)</p>
 	<h2 id="Baysian-prior">Baysian prior</h2><p>In a basysian setting we think of the parameter $\theta$ itself as a random variable and we have a prior opinion of what it's distribution is.</p>
 	<p>A good distribution to choose as a starting Prior is the Beta distribution which iteself has two parameters $a,b$. It's pdf function is displayed in the graph below:</p>
-	<h2 id="Beta-Fuction">Beta Fuction</h2>
+	<h2 id="Beta-Fuction">Beta Distribution</h2>
 	</div>
 	
 	
@@ -115,7 +115,7 @@
         
         </script>
 	
-	<div class = "col-xs-12">
+	<div>
 		
 	<p>We assume that $\theta$ ~ $Beta(a,b)$. In our example of the coin this graph makes sense as the density of $\theta$ (the probabilty of getting heads) is centered around a half (assuming you havent changed the graph).</p>
 	<p>Bayes law says $$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$</p>
