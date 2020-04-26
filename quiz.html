@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Simon Ward-Jones Home</title>
+	<title>Simon Ward-Jones Bauesian inference</title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -18,11 +18,30 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript" async
+	  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+	</script>
+	
+	<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.4.min.css" type="text/css" />
+			
+	<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.js"></script>
+  <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.4.min.js"></script>
+  <style>
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+  </style>
 </head>
 
 
 <body>
-
 
 
 
@@ -39,8 +58,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./index.html">Home</a></li>
-        <li class="dropdown">
+        <li><a href="./index.html">Home</a></li>
+        <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="https://simonwardjones.github.io/mapping-project/">Flights Animation</a></li>
@@ -57,43 +76,16 @@
         <li><a href="./quiz.html">Quiz</a></li>
       </ul>
     </div>
-  <!-- /.navbar-collapse -->
+	<!-- /.navbar-collapse -->
 
   </div><!-- /.container-fluid -->
 </nav>
 
 
 
-<div class="jumbotron">
-	<div class= "container">
-		<h1>Simon Ward-Jones</h1>
-
-		<p>Welcome to my website. I am an Analyst/ Data Scientist currently working in supply chain analytics. This site is very much still a work in progress but I will use it to share some of my little hacks, projects and things I find interesting. </p>
+<div class="container">
+	<div class= "row">
+    <img src="./images/logos.png" alt="No quiz?">
 	</div>
 </div>
-
-
-<div class= "container">
-  <div class="row">
-    <div class="col-sm-12">
-		<h2>Check out this map I made of all the flights I have ever been on: </h2>
-	
-		<div class="embed-responsive embed-responsive-4by3">
-		<video controls class="embed-responsive-item" onclick="this.paused ? this.play() : this.pause();">
-			<source src=".//images//mapping_video.mp4" type="video/mp4">
-			<source src=".//images//mapping_video_ios.mp4" type="video/mp4">
-		</video>
-		</div>
-		
-	</div>
-    <div class="col-sm-6">
-		
-    </div>
-  </div>
-</div>
-
-
 </body>
-
-</html>
-
