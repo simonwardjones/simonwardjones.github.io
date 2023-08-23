@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+/* Circle css */
+/*
+.circleComponent {
+  animation: App-logo-spin 1s ease 0s 1 normal forwards;
+}
+
+@keyframes App-logo-spin {
+  0% {
+        stroke-dasharray: 0 188.49555921538757
+    }
+  100% {
+      stroke-dasharray: 15.707963267948964 188.49555921538757
+  }
+}
+
+.circleComponent:nth-child(1) {animation-delay: 0s }
+.circleComponent:nth-child(2) {animation-delay: 1s; }
+.circleComponent:nth-child(3) {animation-delay: 2s; }
+.circleComponent:nth-child(4) {animation-delay: 3s; }
+.circleComponent:nth-child(5) {animation-delay: 4s; }
+.circleComponent:nth-child(6) {animation-delay: 5s; }
+.circleComponent:nth-child(7) {animation-delay: 6s; }
+.circleComponent:nth-child(8) {animation-delay: 7s; }
+.circleComponent:nth-child(9) {animation-delay: 8s; }
+.circleComponent:nth-child(10) {animation-delay: 9s ;  }
+.circleComponent:nth-child(11) {animation-delay: 10s; }
+.circleComponent:nth-child(12) {animation-delay: 11s; }
+
+*/

@@ -1,0 +1,46 @@
+<!-- method 2 - 12 circles with stroke dash -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <!-- add a foreign div -->
+    <foreignObject width="100" height="100" mask="url(#circleMask)">
+        <div
+            style="
+            height: 100;
+            background: conic-gradient(from 0deg at 50% 50%,
+            rgb(252, 254, 7)   0.0deg 30.0deg,
+            rgb(252, 143, 9)   30.0deg 60.0deg,
+            rgb(252, 91, 9)    60.0deg 90.0deg,
+            rgb(252, 44, 8)    90.0deg 120.0deg,
+            rgb(198, 6, 9)     120.0deg 150.0deg,
+            rgb(145, 6, 89)    150.0deg 180.0deg,
+            rgb(89, 6, 90)     180.0deg 210.0deg,
+            rgb(8, 6, 88)      210.0deg 240.0deg,
+            rgb(13, 50, 144)   240.0deg 270.0deg,
+            rgb(8, 91, 90)     270.0deg 300.0deg,
+            rgb(47, 141, 11)   300.0deg 330.0deg,
+            rgb(88, 200, 0)    330.0deg 360.0deg
+            );"></div>
+        <!-- <div
+            style="
+            height: 100;
+            background: conic-gradient(from 0deg at 50% 50%,
+            rgb(252, 254, 7),
+            rgb(252, 143, 9),
+            rgb(252, 91, 9),
+            rgb(252, 44, 8),
+            rgb(198, 6, 9),
+            rgb(145, 6, 89),
+            rgb(89, 6, 90),
+            rgb(8, 6, 88),
+            rgb(13, 50, 144),
+            rgb(8, 91, 90),
+            rgb(47, 141, 11),
+            rgb(88, 200, 0)
+            );"></div> -->
+    </foreignObject>
+    <defs>
+        <!--   a circle mask -->
+        <mask id="circleMask">
+            <circle r="30" cx="50" cy="50" stroke-width="12" stroke="white" />
+        </mask>
+    </defs>
+</svg>
