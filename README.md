@@ -1,3 +1,12 @@
+# Simon's github pages site
+
+I am using a minimal create react app
+
+Tp deploy (on gh-pages branch)
+```shell
+npm run deploy
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
